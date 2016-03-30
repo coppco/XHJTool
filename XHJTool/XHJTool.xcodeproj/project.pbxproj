@@ -28,6 +28,16 @@
 		CC0328201CAA75DD0072C076 /* region.db in Resources */ = {isa = PBXBuildFile; fileRef = CC03281B1CAA75DD0072C076 /* region.db */; };
 		CC0328221CAA75DD0072C076 /* RegionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03281F1CAA75DD0072C076 /* RegionSearch.m */; };
 		CC0328241CAA76580072C076 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0328231CAA76580072C076 /* libz.tbd */; };
+		CC03283B1CAB7DC60072C076 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328301CAB7DC60072C076 /* LockViewController.m */; };
+		CC03283C1CAB7DC60072C076 /* LockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328331CAB7DC60072C076 /* LockModel.m */; };
+		CC03283D1CAB7DC60072C076 /* LockIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328361CAB7DC60072C076 /* LockIndicatorView.m */; };
+		CC03283E1CAB7DC60072C076 /* LockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328381CAB7DC60072C076 /* LockItemView.m */; };
+		CC03283F1CAB7DC60072C076 /* MyLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03283A1CAB7DC60072C076 /* MyLockView.m */; };
+		CC0328491CAB7E730072C076 /* HUDImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC0328411CAB7E730072C076 /* HUDImage.bundle */; };
+		CC03284A1CAB7E730072C076 /* HUDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328431CAB7E730072C076 /* HUDTool.m */; };
+		CC03284B1CAB7E730072C076 /* error_msg_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0328451CAB7E730072C076 /* error_msg_bg.png */; };
+		CC03284C1CAB7E730072C076 /* error_msg_t.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0328461CAB7E730072C076 /* error_msg_t.png */; };
+		CC03284D1CAB7E730072C076 /* MulticolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328481CAB7E730072C076 /* MulticolorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +102,23 @@
 		CC03281F1CAA75DD0072C076 /* RegionSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RegionSearch.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CC0328231CAA76580072C076 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CC0328251CAA77CA0072C076 /* HJTool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTool.pch; sourceTree = "<group>"; };
+		CC03282F1CAB7DC60072C076 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		CC0328301CAB7DC60072C076 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		CC0328321CAB7DC60072C076 /* LockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockModel.h; sourceTree = "<group>"; };
+		CC0328331CAB7DC60072C076 /* LockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockModel.m; sourceTree = "<group>"; };
+		CC0328351CAB7DC60072C076 /* LockIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockIndicatorView.h; sourceTree = "<group>"; };
+		CC0328361CAB7DC60072C076 /* LockIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockIndicatorView.m; sourceTree = "<group>"; };
+		CC0328371CAB7DC60072C076 /* LockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockItemView.h; sourceTree = "<group>"; };
+		CC0328381CAB7DC60072C076 /* LockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockItemView.m; sourceTree = "<group>"; };
+		CC0328391CAB7DC60072C076 /* MyLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLockView.h; sourceTree = "<group>"; };
+		CC03283A1CAB7DC60072C076 /* MyLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLockView.m; sourceTree = "<group>"; };
+		CC0328411CAB7E730072C076 /* HUDImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HUDImage.bundle; sourceTree = "<group>"; };
+		CC0328421CAB7E730072C076 /* HUDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDTool.h; sourceTree = "<group>"; };
+		CC0328431CAB7E730072C076 /* HUDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDTool.m; sourceTree = "<group>"; };
+		CC0328451CAB7E730072C076 /* error_msg_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_msg_bg.png; sourceTree = "<group>"; };
+		CC0328461CAB7E730072C076 /* error_msg_t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_msg_t.png; sourceTree = "<group>"; };
+		CC0328471CAB7E730072C076 /* MulticolorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorView.h; sourceTree = "<group>"; };
+		CC0328481CAB7E730072C076 /* MulticolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +226,8 @@
 		CC0327ED1CAA52100072C076 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CC0328401CAB7E730072C076 /* HUD */,
+				CC03282D1CAB7DC60072C076 /* GestureLock */,
 				CC0328121CAA6C150072C076 /* HJHttpRequestTool */,
 				CC03280A1CAA61400072C076 /* HJFMDBHandle */,
 				CC0327F01CAA52240072C076 /* Category */,
@@ -322,6 +351,69 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		CC03282D1CAB7DC60072C076 /* GestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				CC03282E1CAB7DC60072C076 /* Controller */,
+				CC0328311CAB7DC60072C076 /* Model */,
+				CC0328341CAB7DC60072C076 /* View */,
+			);
+			path = GestureLock;
+			sourceTree = "<group>";
+		};
+		CC03282E1CAB7DC60072C076 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC03282F1CAB7DC60072C076 /* LockViewController.h */,
+				CC0328301CAB7DC60072C076 /* LockViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC0328311CAB7DC60072C076 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328321CAB7DC60072C076 /* LockModel.h */,
+				CC0328331CAB7DC60072C076 /* LockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC0328341CAB7DC60072C076 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328351CAB7DC60072C076 /* LockIndicatorView.h */,
+				CC0328361CAB7DC60072C076 /* LockIndicatorView.m */,
+				CC0328371CAB7DC60072C076 /* LockItemView.h */,
+				CC0328381CAB7DC60072C076 /* LockItemView.m */,
+				CC0328391CAB7DC60072C076 /* MyLockView.h */,
+				CC03283A1CAB7DC60072C076 /* MyLockView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC0328401CAB7E730072C076 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328411CAB7E730072C076 /* HUDImage.bundle */,
+				CC0328421CAB7E730072C076 /* HUDTool.h */,
+				CC0328431CAB7E730072C076 /* HUDTool.m */,
+				CC0328441CAB7E730072C076 /* MulticolorView */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		CC0328441CAB7E730072C076 /* MulticolorView */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328451CAB7E730072C076 /* error_msg_bg.png */,
+				CC0328461CAB7E730072C076 /* error_msg_t.png */,
+				CC0328471CAB7E730072C076 /* MulticolorView.h */,
+				CC0328481CAB7E730072C076 /* MulticolorView.m */,
+			);
+			path = MulticolorView;
+			sourceTree = "<group>";
+		};
 		FA218FC298E84F8A30D35CE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,7 +529,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC03284C1CAB7E730072C076 /* error_msg_t.png in Resources */,
 				CC0327CA1CAA50730072C076 /* LaunchScreen.storyboard in Resources */,
+				CC03284B1CAB7E730072C076 /* error_msg_bg.png in Resources */,
+				CC0328491CAB7E730072C076 /* HUDImage.bundle in Resources */,
 				CC0328201CAA75DD0072C076 /* region.db in Resources */,
 				CC0327C71CAA50730072C076 /* Assets.xcassets in Resources */,
 				CC0327C51CAA50730072C076 /* Main.storyboard in Resources */,
@@ -516,16 +611,23 @@
 				CC0327F51CAA53CF0072C076 /* UIView+HJExtension.m in Sources */,
 				CC0327C21CAA50730072C076 /* ViewController.m in Sources */,
 				CC0327BF1CAA50730072C076 /* AppDelegate.m in Sources */,
+				CC03284A1CAB7E730072C076 /* HUDTool.m in Sources */,
+				CC03284D1CAB7E730072C076 /* MulticolorView.m in Sources */,
 				CC0328221CAA75DD0072C076 /* RegionSearch.m in Sources */,
 				CC0327BC1CAA50730072C076 /* main.m in Sources */,
+				CC03283B1CAB7DC60072C076 /* LockViewController.m in Sources */,
+				CC03283C1CAB7DC60072C076 /* LockModel.m in Sources */,
 				CC03280D1CAA615A0072C076 /* HJFMDBHandle.m in Sources */,
 				CC0328091CAA588E0072C076 /* NSTimer+Block.m in Sources */,
 				CC0328151CAA6C270072C076 /* HJHttpRequestTool.m in Sources */,
 				CC0328051CAA58850072C076 /* NSObject+ZXPUnicode.m in Sources */,
 				CC0328041CAA58850072C076 /* NSObject+HJProperties.m in Sources */,
+				CC03283E1CAB7DC60072C076 /* LockItemView.m in Sources */,
 				CC0328021CAA58850072C076 /* NSArray+ ZXPUnicode.m in Sources */,
 				CC0328031CAA58850072C076 /* NSDictionary+ZXPUnicode.m in Sources */,
+				CC03283F1CAB7DC60072C076 /* MyLockView.m in Sources */,
 				CC0328191CAA74CA0072C076 /* HJTool.m in Sources */,
+				CC03283D1CAB7DC60072C076 /* LockIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
