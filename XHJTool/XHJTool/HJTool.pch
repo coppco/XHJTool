@@ -1,0 +1,14 @@
+//
+//  HJTool.pch
+//  XHJTool
+//
+//  Created by coco on 16/3/29.
+//  Copyright © 2016年 XHJ. All rights reserved.
+//
+
+#ifndef HJTool_pch
+#define HJTool_pch
+
+#import "XHJTool.h"
+
+#endif /* HJTool_pch */

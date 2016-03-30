@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77F1015EF357A6459A9C7BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E27E08F07DA58EF336DE5 /* libPods.a */; };
 		CC0327BC1CAA50730072C076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327BB1CAA50730072C076 /* main.m */; };
 		CC0327BF1CAA50730072C076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327BE1CAA50730072C076 /* AppDelegate.m */; };
 		CC0327C21CAA50730072C076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327C11CAA50730072C076 /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		CC0327CA1CAA50730072C076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0327C81CAA50730072C076 /* LaunchScreen.storyboard */; };
 		CC0327D51CAA50730072C076 /* XHJToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327D41CAA50730072C076 /* XHJToolTests.m */; };
 		CC0327E01CAA50740072C076 /* XHJToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327DF1CAA50740072C076 /* XHJToolUITests.m */; };
+		CC0327F51CAA53CF0072C076 /* UIView+HJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327F41CAA53CF0072C076 /* UIView+HJExtension.m */; };
+		CC0328021CAA58850072C076 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327F81CAA58850072C076 /* NSArray+ ZXPUnicode.m */; };
+		CC0328031CAA58850072C076 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327FC1CAA58850072C076 /* NSDictionary+ZXPUnicode.m */; };
+		CC0328041CAA58850072C076 /* NSObject+HJProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0327FF1CAA58850072C076 /* NSObject+HJProperties.m */; };
+		CC0328051CAA58850072C076 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328011CAA58850072C076 /* NSObject+ZXPUnicode.m */; };
+		CC0328091CAA588E0072C076 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328081CAA588E0072C076 /* NSTimer+Block.m */; };
+		CC03280D1CAA615A0072C076 /* HJFMDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03280C1CAA615A0072C076 /* HJFMDBHandle.m */; };
+		CC0328151CAA6C270072C076 /* HJHttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328141CAA6C270072C076 /* HJHttpRequestTool.m */; };
+		CC0328191CAA74CA0072C076 /* HJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328181CAA74CA0072C076 /* HJTool.m */; };
+		CC0328201CAA75DD0072C076 /* region.db in Resources */ = {isa = PBXBuildFile; fileRef = CC03281B1CAA75DD0072C076 /* region.db */; };
+		CC0328221CAA75DD0072C076 /* RegionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03281F1CAA75DD0072C076 /* RegionSearch.m */; };
+		CC0328241CAA76580072C076 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0328231CAA76580072C076 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DF5BCF62C9304FA48B83832 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		68670ADA39BBF286BCC36E8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B32E27E08F07DA58EF336DE5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0327B71CAA50730072C076 /* XHJTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHJTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0327BB1CAA50730072C076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC0327BD1CAA50730072C076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,31 @@
 		CC0327DB1CAA50740072C076 /* XHJToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHJToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0327DF1CAA50740072C076 /* XHJToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHJToolUITests.m; sourceTree = "<group>"; };
 		CC0327E11CAA50740072C076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0327F11CAA52470072C076 /* HJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HJCommonDefine.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CC0327F31CAA53CF0072C076 /* UIView+HJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJExtension.h"; sourceTree = "<group>"; };
+		CC0327F41CAA53CF0072C076 /* UIView+HJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HJExtension.m"; sourceTree = "<group>"; };
+		CC0327F61CAA574F0072C076 /* XHJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHJTool.h; sourceTree = "<group>"; };
+		CC0327F81CAA58850072C076 /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		CC0327F91CAA58850072C076 /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		CC0327FB1CAA58850072C076 /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		CC0327FC1CAA58850072C076 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		CC0327FE1CAA58850072C076 /* NSObject+HJProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HJProperties.h"; sourceTree = "<group>"; };
+		CC0327FF1CAA58850072C076 /* NSObject+HJProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HJProperties.m"; sourceTree = "<group>"; };
+		CC0328001CAA58850072C076 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		CC0328011CAA58850072C076 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+		CC0328071CAA588E0072C076 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		CC0328081CAA588E0072C076 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+		CC03280B1CAA615A0072C076 /* HJFMDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFMDBHandle.h; sourceTree = "<group>"; };
+		CC03280C1CAA615A0072C076 /* HJFMDBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFMDBHandle.m; sourceTree = "<group>"; };
+		CC0328131CAA6C270072C076 /* HJHttpRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHttpRequestTool.h; sourceTree = "<group>"; };
+		CC0328141CAA6C270072C076 /* HJHttpRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHttpRequestTool.m; sourceTree = "<group>"; };
+		CC0328171CAA74CA0072C076 /* HJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTool.h; sourceTree = "<group>"; };
+		CC0328181CAA74CA0072C076 /* HJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HJTool.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CC03281B1CAA75DD0072C076 /* region.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = region.db; sourceTree = "<group>"; };
+		CC03281E1CAA75DD0072C076 /* RegionSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionSearch.h; sourceTree = "<group>"; };
+		CC03281F1CAA75DD0072C076 /* RegionSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RegionSearch.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CC0328231CAA76580072C076 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CC0328251CAA77CA0072C076 /* HJTool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTool.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0328241CAA76580072C076 /* libz.tbd in Frameworks */,
+				B77F1015EF357A6459A9C7BA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C52BA9DC3517802471FB94EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328231CAA76580072C076 /* libz.tbd */,
+				B32E27E08F07DA58EF336DE5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC0327AE1CAA50730072C076 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				CC0327D31CAA50730072C076 /* XHJToolTests */,
 				CC0327DE1CAA50740072C076 /* XHJToolUITests */,
 				CC0327B81CAA50730072C076 /* Products */,
+				FA218FC298E84F8A30D35CE3 /* Pods */,
+				C52BA9DC3517802471FB94EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +155,7 @@
 		CC0327B91CAA50730072C076 /* XHJTool */ = {
 			isa = PBXGroup;
 			children = (
+				CC0327ED1CAA52100072C076 /* Classes */,
 				CC0327BD1CAA50730072C076 /* AppDelegate.h */,
 				CC0327BE1CAA50730072C076 /* AppDelegate.m */,
 				CC0327C01CAA50730072C076 /* ViewController.h */,
@@ -117,6 +172,7 @@
 		CC0327BA1CAA50730072C076 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC0328251CAA77CA0072C076 /* HJTool.pch */,
 				CC0327BB1CAA50730072C076 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +196,141 @@
 			path = XHJToolUITests;
 			sourceTree = "<group>";
 		};
+		CC0327ED1CAA52100072C076 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328121CAA6C150072C076 /* HJHttpRequestTool */,
+				CC03280A1CAA61400072C076 /* HJFMDBHandle */,
+				CC0327F01CAA52240072C076 /* Category */,
+				CC03281A1CAA75DD0072C076 /* Region */,
+				CC0328161CAA74820072C076 /* HJTool */,
+				CC0327EE1CAA52100072C076 /* Defines */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC0327EE1CAA52100072C076 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				CC0327F61CAA574F0072C076 /* XHJTool.h */,
+				CC0327F11CAA52470072C076 /* HJCommonDefine.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		CC0327F01CAA52240072C076 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328261CAB62700072C076 /* NSString */,
+				CC0328061CAA588E0072C076 /* NSTimer */,
+				CC0327F71CAA58850072C076 /* NSArray */,
+				CC0327FA1CAA58850072C076 /* NSDictionary */,
+				CC0327FD1CAA58850072C076 /* NSObject */,
+				CC0327F21CAA53AD0072C076 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CC0327F21CAA53AD0072C076 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CC0327F31CAA53CF0072C076 /* UIView+HJExtension.h */,
+				CC0327F41CAA53CF0072C076 /* UIView+HJExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CC0327F71CAA58850072C076 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				CC0327F91CAA58850072C076 /* NSArray+ZXPUnicode.h */,
+				CC0327F81CAA58850072C076 /* NSArray+ ZXPUnicode.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		CC0327FA1CAA58850072C076 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				CC0327FB1CAA58850072C076 /* NSDictionary+ZXPUnicode.h */,
+				CC0327FC1CAA58850072C076 /* NSDictionary+ZXPUnicode.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		CC0327FD1CAA58850072C076 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				CC0327FE1CAA58850072C076 /* NSObject+HJProperties.h */,
+				CC0327FF1CAA58850072C076 /* NSObject+HJProperties.m */,
+				CC0328001CAA58850072C076 /* NSObject+ZXPUnicode.h */,
+				CC0328011CAA58850072C076 /* NSObject+ZXPUnicode.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		CC0328061CAA588E0072C076 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328071CAA588E0072C076 /* NSTimer+Block.h */,
+				CC0328081CAA588E0072C076 /* NSTimer+Block.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		CC03280A1CAA61400072C076 /* HJFMDBHandle */ = {
+			isa = PBXGroup;
+			children = (
+				CC03280B1CAA615A0072C076 /* HJFMDBHandle.h */,
+				CC03280C1CAA615A0072C076 /* HJFMDBHandle.m */,
+			);
+			path = HJFMDBHandle;
+			sourceTree = "<group>";
+		};
+		CC0328121CAA6C150072C076 /* HJHttpRequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328131CAA6C270072C076 /* HJHttpRequestTool.h */,
+				CC0328141CAA6C270072C076 /* HJHttpRequestTool.m */,
+			);
+			path = HJHttpRequestTool;
+			sourceTree = "<group>";
+		};
+		CC0328161CAA74820072C076 /* HJTool */ = {
+			isa = PBXGroup;
+			children = (
+				CC0328171CAA74CA0072C076 /* HJTool.h */,
+				CC0328181CAA74CA0072C076 /* HJTool.m */,
+			);
+			path = HJTool;
+			sourceTree = "<group>";
+		};
+		CC03281A1CAA75DD0072C076 /* Region */ = {
+			isa = PBXGroup;
+			children = (
+				CC03281B1CAA75DD0072C076 /* region.db */,
+				CC03281E1CAA75DD0072C076 /* RegionSearch.h */,
+				CC03281F1CAA75DD0072C076 /* RegionSearch.m */,
+			);
+			path = Region;
+			sourceTree = "<group>";
+		};
+		CC0328261CAB62700072C076 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FA218FC298E84F8A30D35CE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DF5BCF62C9304FA48B83832 /* Pods.debug.xcconfig */,
+				68670ADA39BBF286BCC36E8E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +338,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC0327E41CAA50740072C076 /* Build configuration list for PBXNativeTarget "XHJTool" */;
 			buildPhases = (
+				36667C8EBDE0CDE46FA7589E /* Check Pods Manifest.lock */,
 				CC0327B31CAA50730072C076 /* Sources */,
 				CC0327B41CAA50730072C076 /* Frameworks */,
 				CC0327B51CAA50730072C076 /* Resources */,
+				3C1830259D53CEF76E758F94 /* Embed Pods Frameworks */,
+				589AEE420A37432A7CD3B422 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0327CA1CAA50730072C076 /* LaunchScreen.storyboard in Resources */,
+				CC0328201CAA75DD0072C076 /* region.db in Resources */,
 				CC0327C71CAA50730072C076 /* Assets.xcassets in Resources */,
 				CC0327C51CAA50730072C076 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +460,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36667C8EBDE0CDE46FA7589E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1830259D53CEF76E758F94 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589AEE420A37432A7CD3B422 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC0327B31CAA50730072C076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0327F51CAA53CF0072C076 /* UIView+HJExtension.m in Sources */,
 				CC0327C21CAA50730072C076 /* ViewController.m in Sources */,
 				CC0327BF1CAA50730072C076 /* AppDelegate.m in Sources */,
+				CC0328221CAA75DD0072C076 /* RegionSearch.m in Sources */,
 				CC0327BC1CAA50730072C076 /* main.m in Sources */,
+				CC03280D1CAA615A0072C076 /* HJFMDBHandle.m in Sources */,
+				CC0328091CAA588E0072C076 /* NSTimer+Block.m in Sources */,
+				CC0328151CAA6C270072C076 /* HJHttpRequestTool.m in Sources */,
+				CC0328051CAA58850072C076 /* NSObject+ZXPUnicode.m in Sources */,
+				CC0328041CAA58850072C076 /* NSObject+HJProperties.m in Sources */,
+				CC0328021CAA58850072C076 /* NSArray+ ZXPUnicode.m in Sources */,
+				CC0328031CAA58850072C076 /* NSDictionary+ZXPUnicode.m in Sources */,
+				CC0328191CAA74CA0072C076 /* HJTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +664,12 @@
 		};
 		CC0327E51CAA50740072C076 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF5BCF62C9304FA48B83832 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHJTool/HJTool.pch";
 				INFOPLIST_FILE = XHJTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.XHJTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +678,12 @@
 		};
 		CC0327E61CAA50740072C076 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68670ADA39BBF286BCC36E8E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHJTool/HJTool.pch";
 				INFOPLIST_FILE = XHJTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.XHJTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +757,7 @@
 				CC0327E61CAA50740072C076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0327E71CAA50740072C076 /* Build configuration list for PBXNativeTarget "XHJToolTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +766,7 @@
 				CC0327E91CAA50740072C076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0327EA1CAA50740072C076 /* Build configuration list for PBXNativeTarget "XHJToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +775,7 @@
 				CC0327EC1CAA50740072C076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
