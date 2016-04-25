@@ -112,4 +112,12 @@
     return nil;
 }
 - (void)setViewController:(UIViewController *)viewController {}
+//快照
+- (UIImage *)snapshotImage {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.opaque, 0);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *snap = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return snap;
+}
 @end

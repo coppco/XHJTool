@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (HJExtension)
+
 /*==============属性可以设置也可以获取================*/
 /*x*/
 @property (nonatomic, assign)CGFloat x;
