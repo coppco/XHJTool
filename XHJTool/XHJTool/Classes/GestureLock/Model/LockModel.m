@@ -10,6 +10,7 @@
 
 @implementation LockModel
 + (void)saveLockPassword:(NSString *)password {
+    
     userDefaultSetValueKey(password, @"Lock");
 }
 + (NSString *)getPassword {

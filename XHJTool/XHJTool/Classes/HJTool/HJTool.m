@@ -1332,8 +1332,9 @@ UIWindow *getAppWindow() {
     if (delegate != nil) {
         group.delegate = delegate;
     }
-    group.autoreverses = NO; // 防止最后显现
-    group.fillMode = kCAFillModeForwards;
+    group.speed = 0.5;  //慢速
+    group.autoreverses = NO; // 防止最后显现,不自动返回
+    group.fillMode = kCAFillModeForwards;  //最终会停在终点处
     group.removedOnCompletion = NO;
     [view.layer addAnimation:group forKey:nil];
     

@@ -38,6 +38,7 @@
 		CC03284B1CAB7E730072C076 /* error_msg_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0328451CAB7E730072C076 /* error_msg_bg.png */; };
 		CC03284C1CAB7E730072C076 /* error_msg_t.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0328461CAB7E730072C076 /* error_msg_t.png */; };
 		CC03284D1CAB7E730072C076 /* MulticolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0328481CAB7E730072C076 /* MulticolorView.m */; };
+		CCCB289C1CD9884A00810DD6 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB289B1CD9884A00810DD6 /* TouchID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,8 @@
 		CC0328461CAB7E730072C076 /* error_msg_t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_msg_t.png; sourceTree = "<group>"; };
 		CC0328471CAB7E730072C076 /* MulticolorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorView.h; sourceTree = "<group>"; };
 		CC0328481CAB7E730072C076 /* MulticolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorView.m; sourceTree = "<group>"; };
+		CCCB289A1CD9884A00810DD6 /* TouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchID.h; sourceTree = "<group>"; };
+		CCCB289B1CD9884A00810DD6 /* TouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +378,8 @@
 			children = (
 				CC0328321CAB7DC60072C076 /* LockModel.h */,
 				CC0328331CAB7DC60072C076 /* LockModel.m */,
+				CCCB289A1CD9884A00810DD6 /* TouchID.h */,
+				CCCB289B1CD9884A00810DD6 /* TouchID.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 				TargetAttributes = {
 					CC0327B61CAA50730072C076 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 26Z24GRL48;
 					};
 					CC0327CF1CAA50730072C076 = {
 						CreatedOnToolsVersion = 7.2;
@@ -626,6 +632,7 @@
 				CC0328021CAA58850072C076 /* NSArray+ ZXPUnicode.m in Sources */,
 				CC0328031CAA58850072C076 /* NSDictionary+ZXPUnicode.m in Sources */,
 				CC03283F1CAB7DC60072C076 /* MyLockView.m in Sources */,
+				CCCB289C1CD9884A00810DD6 /* TouchID.m in Sources */,
 				CC0328191CAA74CA0072C076 /* HJTool.m in Sources */,
 				CC03283D1CAB7DC60072C076 /* LockIndicatorView.m in Sources */,
 			);
@@ -769,12 +776,15 @@
 			baseConfigurationReference = 5DF5BCF62C9304FA48B83832 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XHJTool/HJTool.pch";
 				INFOPLIST_FILE = XHJTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.XHJTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -783,12 +793,15 @@
 			baseConfigurationReference = 68670ADA39BBF286BCC36E8E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XHJTool/HJTool.pch";
 				INFOPLIST_FILE = XHJTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.XHJTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coppco.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
